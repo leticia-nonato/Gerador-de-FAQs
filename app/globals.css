@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --hotmart-orange: #FF4000;
+  --hotmart-black: #0D0D0D;
+  --hotmart-off-white: #F5F3EF;
+  --hotmart-off-white-light: #FAF9F7;
+  --hotmart-grey: #C3BFB8;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #F5F3EF;
+  color: #0D0D0D;
+}
+
+/* Links dentro das respostas das FAQs */
+.faq-answer a {
+  color: #FF4000;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+.faq-answer a:hover {
+  color: #e03800;
+}

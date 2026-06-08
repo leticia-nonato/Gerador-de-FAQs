@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+
+export const maxDuration = 60;
 import { generateText } from "@/lib/gemini";
 
 export async function POST(request: NextRequest) {
